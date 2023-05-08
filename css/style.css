@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #34AD54;
+    --primary: #801c00;
     --secondary: #FF9933;
     --light: #F6FFF2;
     --dark: #263A4F;
@@ -190,7 +190,6 @@
     height: 55%;
     bottom: 0;
     left: 0;
-    background: url(../img/bg-product-1.png) left bottom no-repeat, url(../img/bg-product-2.png) right bottom no-repeat;
     background-size: contain;
     background-color: var(--primary);
     z-index: -1;
@@ -290,7 +289,7 @@
 }
 
 .bg-footer {
-    background: linear-gradient(rgba(52, 173, 84, .7), rgba(52, 173, 84, .7)), url(../img/footer.png) center bottom no-repeat;
+    background: linear-gradient(#801c0081, #801c0081) ;
     background-size: contain;
 }
 /* 
